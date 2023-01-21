@@ -1197,9 +1197,10 @@ textarea.input{
         margin-right: var(--mb-1-5);
     }
     .sidebar {
-        width: 100%;
+        width: 20%;
+        height: 100%;
         z-index: 999;
-        transform: translateX(1%);
+        transform: translateX(-100%);
     }
 
     .show-sidebar{
@@ -1216,6 +1217,7 @@ textarea.input{
         transform: rotate(0deg) translateX(0);
         display: flex;
         justify-content: center;
+        background: var(--box-color);
     }
     .nav__list{
         flex-direction: column;
